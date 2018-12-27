@@ -47,7 +47,7 @@
   <div class="site-header">
     <div data-collapse="medium" data-animation="default" data-duration="400" class="navbar w-nav">
       <div class="w-container">
-        <a href="index.html" class="navbar-brand w-nav-brand w--current">
+        <a href="<?php echo WP_SITE_URL; ?>" class="navbar-brand w-nav-brand">
           <img src="<?php echo WP_THEME_URL; ?>/images/revista-dr-marca-minimal.png" width="100" alt="">
         </a>
         <nav role="navigation" class="w-nav-menu">
@@ -62,7 +62,7 @@
               'fallback_cb' => false
             ));
           ?>
-          
+
         </nav>
         <div class="menu-button w-nav-button">
           <div class="menu-button-icon w-icon-nav-menu"></div>
