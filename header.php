@@ -51,12 +51,18 @@
           <img src="<?php echo WP_THEME_URL; ?>/images/revista-dr-marca-minimal.png" width="100" alt="">
         </a>
         <nav role="navigation" class="w-nav-menu">
-          <a href="index.html" class="navbar-link w-nav-link w--current">Revista dr</a>
-          <a href="grito.html" class="navbar-link w-nav-link">O GRITO</a>
-          <a href="editorial.html" class="navbar-link w-nav-link">Editorial</a>
-          <a href="divas.html" class="navbar-link w-nav-link">DIVAS</a>
-          <a href="memes.html" class="navbar-link w-nav-link">MEMES</a>
-          <a href="contato.html" class="navbar-link w-nav-link">contato</a>
+          
+          <?php
+            wp_nav_menu(array(
+              'items_wrap' => '%3$s',
+              'walker' => new Webflow_Walker(),
+              'container' => false,
+              'menu_class' => '',
+              'theme_location' => 'main-menu',
+              'fallback_cb' => false
+            ));
+          ?>
+          
         </nav>
         <div class="menu-button w-nav-button">
           <div class="menu-button-icon w-icon-nav-menu"></div>
