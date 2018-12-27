@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.1 (15681) - http://www.bohemiancoding.com/sketch -->
+    <title>social-fb</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="social-fb" sketch:type="MSArtboardGroup" fill="#B8474B">
+            <path d="M7.06474346,0 C3.16564579,0 0,3.15932293 0,7.06474346 L0,120.931041 C0,124.836462 3.16564579,128 7.06474346,128 L68.3669894,128 L68.3669894,78.4308766 L51.6872818,78.4308766 L51.6872818,59.1103208 L68.3669894,59.1103208 L68.3669894,44.8628071 C68.3669894,28.3327406 78.4603833,19.3268787 93.2095106,19.3268787 C100.280577,19.3268787 106.344201,19.8558915 108.112494,20.0856221 L108.112494,37.3638938 L97.882105,37.3681091 C89.8626095,37.3681091 88.3156161,41.1807943 88.3156161,46.7723111 L88.3156161,59.1039979 L107.448594,59.1039979 L104.946848,78.4224462 L88.3135085,78.4224462 L88.3135085,127.993677 L120.928934,127.993677 C124.832247,127.993677 128,124.825924 128,120.931041 L128,7.06052822 C127.997892,3.15932293 124.834354,0 120.931041,0 L7.06474346,0 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
