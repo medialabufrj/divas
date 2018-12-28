@@ -7,6 +7,7 @@
 			'from' => 'revista',
 			'to' => 'meme',
 			'cardinality' => 'one-to-many',
+			'sortable' => 'from',
 			'title' => array( 'from' => 'Memes relacionados', 'to' => 'Edição relacionada' )
 		) );
 
@@ -15,6 +16,7 @@
 			'from' => 'revista',
 			'to' => 'post',
 			'cardinality' => 'one-to-many',
+			'sortable' => 'from',
 			'title' => array( 'from' => 'Posts relacionados', 'to' => 'Edição relacionada' )
 		) );
 
@@ -23,6 +25,7 @@
 			'from' => 'post',
 			'to' => 'diva',
 			'cardinality' => 'one-to-many',
+			'sortable' => 'from',
 			'title' => array( 'from' => 'Divas relacionadas', 'to' => 'Post relacionado' )
 		) );
 
