@@ -13,9 +13,9 @@ add_theme_support('post-thumbnails');
 // set_post_thumbnail_size( 512, 512, false );
 // add_image_size( '2x', 1024, 1024, false );
 // add_image_size( '4x', 2048, 2048, false );
-// add_image_size( 'square-large', 512, 512, true );
-// add_image_size( 'square-medium', 256, 256, true );
-// add_image_size( 'square-small', 128, 128, true );
+add_image_size( 'square-large', 512, 512, true );
+add_image_size( 'square-medium', 256, 256, true );
+add_image_size( 'square-small', 128, 128, true );
 
 // INCLUDES
 
