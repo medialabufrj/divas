@@ -1,0 +1,768 @@
+body {
+  font-family: Lato, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 24px;
+  font-size: 60px;
+  line-height: 44px;
+  font-weight: 700;
+}
+
+h4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: Merriweather, serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  text-align: center;
+}
+
+h5 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: Merriweather, serif;
+  color: #b7474a;
+  font-size: 16px;
+  line-height: 1.8em;
+  font-style: normal;
+  font-weight: 400;
+}
+
+h6 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: Merriweather, serif;
+  color: #999;
+  font-size: 12px;
+  line-height: 1.5em;
+  font-weight: 300;
+}
+
+p {
+  margin-bottom: 2em;
+}
+
+a {
+  color: #b9474b;
+  text-decoration: underline;
+}
+
+blockquote {
+  margin-bottom: 30px;
+  padding: 10px 20px;
+  border-left: 5px solid #e2e2e2;
+  font-family: Lato, sans-serif;
+  color: #666;
+  font-size: 22px;
+  line-height: 1.5em;
+  font-weight: 300;
+}
+
+.navbar-brand {
+  margin-left: 0px;
+}
+
+.navbar-link {
+  left: 0px;
+  top: 0px;
+  right: -1px;
+  padding: 40px 20px;
+  font-family: Lato, sans-serif;
+  color: #888;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.navbar-link:hover {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-top: 4px none #b7474a;
+  border-bottom: 10px none #b7474a;
+  color: #b7474a;
+}
+
+.navbar-link.w--current {
+  margin-bottom: 0px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-top: 4px none #b7474a;
+  border-bottom: 10px none #b7474a;
+  color: #b7474a;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.navbar {
+  background-color: #fff;
+}
+
+.page-title {
+  position: relative;
+  overflow: hidden;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #093d48;
+  background-image: url('../images/revista-dr-bg1.jpg');
+  background-position: 0px 50%, 50% 0px;
+  background-size: cover, cover;
+  background-repeat: repeat, repeat;
+  background-attachment: scroll, scroll;
+  text-align: center;
+}
+
+.page-title-heading {
+  position: static;
+  right: 13px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0px;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-size: 120px;
+  line-height: 1em;
+  font-weight: 200;
+  text-align: left;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+}
+
+.page-title-heading.diva {
+  position: static;
+  font-size: 60px;
+}
+
+.page-text {
+  padding: 60px 0px;
+  font-family: Merriweather, serif;
+  font-size: 16px;
+  line-height: 2em;
+  font-weight: 300;
+}
+
+.page-text.center {
+  text-align: center;
+}
+
+.text-link {
+  font-family: Lato, sans-serif;
+  color: #b7464a;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.text-link:hover {
+  text-decoration: underline;
+}
+
+.contato-col {
+  text-align: center;
+}
+
+.contato-icon {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.revistas {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.revista-title {
+  font-family: Lato, sans-serif;
+  color: #b7474b;
+  font-weight: 300;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.revista-item {
+  padding: 20px;
+}
+
+.revista-item img {
+  height: auto;
+}
+
+.subheading {
+  margin-top: 0px;
+  margin-bottom: 30px;
+  color: #b8474b;
+  font-weight: 300;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.botao-ver-impressa {
+  padding: 16px 40px;
+  border-radius: 3px;
+  background-color: #b7464a;
+  font-weight: 300;
+}
+
+.post-title {
+  min-height: 64px;
+  margin-top: 0px;
+  color: #b7464a;
+  font-size: 14px;
+  line-height: 1.5em;
+  font-weight: 400;
+  text-align: left;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.post-item {
+  margin-bottom: 36px;
+  text-decoration: none;
+}
+
+.post-wrapper {
+  padding: 60px 10%;
+}
+
+.page-title-subheading {
+  position: relative;
+  max-width: 80%;
+  margin: 0px;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-size: 24px;
+  line-height: 1.5em;
+  font-weight: 300;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.post-body {
+  padding-top: 0px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+  font-family: Merriweather, serif;
+  font-size: 16px;
+  line-height: 1.8em;
+  font-weight: 300;
+}
+
+.spacer {
+  height: 30px;
+  clear: both;
+}
+
+.post-title-heading {
+  position: relative;
+  padding: 0px;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  line-height: 1.2em;
+  font-weight: 200;
+  text-align: left;
+}
+
+.post-cat {
+  margin-bottom: 0px;
+  color: #838383;
+  font-size: 12px;
+  line-height: 17px;
+  font-weight: 300;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.image-between {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.page-body-head {
+  margin-bottom: 40px;
+  font-family: Lato, sans-serif;
+  line-height: 1.8em;
+  font-weight: 300;
+}
+
+.page-revista {
+  margin: 60px 0px;
+  padding-bottom: 0px;
+  font-family: Lato, sans-serif;
+  text-align: center;
+}
+
+.diva-name {
+  margin-top: 0px;
+  font-family: Lato, sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.diva-text {
+  font-size: 12px;
+  line-height: 1.8em;
+}
+
+.simple-link {
+  text-decoration: none;
+}
+
+.simple-link:hover {
+  text-decoration: underline;
+}
+
+.simple-head {
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.diva-image {
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.seo-hidden {
+  display: none;
+}
+
+.revista-nenhum-artigo {
+  padding: 30px;
+  background-color: #eee;
+  text-align: left;
+}
+
+.post-author {
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+}
+
+.meme {
+  width: 100%;
+  margin: 10px 0px;
+  padding: 0px 0px 100%;
+  background-image: url('../images/example-bg.png');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.lato {
+  font-family: Lato, sans-serif;
+}
+
+.meme-detail {
+  display: inline-block;
+  margin: 30px;
+  border: 20px solid #363636;
+  box-shadow: 1px 1px 38px 7px rgba(0, 0, 0, .57);
+  text-align: center;
+}
+
+.hide-empty {
+  display: none;
+}
+
+.revista-post-item {
+  clear: none;
+}
+
+.container-soon {
+  padding: 100px;
+  text-align: center;
+}
+
+.title-soon {
+  margin-bottom: 48px;
+  font-family: Lato, sans-serif;
+  font-size: 30px;
+  line-height: 1.5em;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.diva-single-photo {
+  padding-right: 10%;
+  padding-bottom: 0%;
+  padding-left: 10%;
+}
+
+.credits-text {
+  font-size: 14px;
+}
+
+.revista-item-link {
+  text-decoration: none;
+}
+
+.diva-post-title {
+  margin-top: 0px;
+}
+
+.diva-post-cat {
+  font-family: Lato, sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.diva-post-cat.date {
+  line-height: 1em;
+}
+
+.grito-logo {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: 'Bungee Shade', sans-serif;
+  color: #a1363b;
+  font-size: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.grito-section {
+  min-height: 1000px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.grito-apresenta {
+  max-width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 18px;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+.grito-loop-date {
+  font-family: 'Changa One', Impact, sans-serif;
+}
+
+.grito-loop-title {
+  display: block;
+  margin-top: 0px;
+  font-family: 'Bungee Shade', sans-serif;
+  color: #a1363b;
+}
+
+.grito-loop-link {
+  text-decoration: none;
+}
+
+.grito-loop-row {
+  max-width: 600px;
+  margin: 0px auto 30px;
+}
+
+.grito-post-pretexto {
+  max-width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Merriweather, serif;
+  color: #888;
+  font-size: 16px;
+  line-height: 2em;
+  font-weight: 300;
+  text-align: right;
+}
+
+.grito-post-content {
+  max-width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Merriweather, serif;
+  font-size: 16px;
+  line-height: 2em;
+  font-weight: 300;
+}
+
+.grito-post-diva {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Bungee Hairline', sans-serif;
+  font-size: 24px;
+  line-height: 1em;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.grito-post-divas {
+  max-width: 700px;
+  margin-right: auto;
+  margin-bottom: 33px;
+  margin-left: auto;
+}
+
+.grito-post-title {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 0px;
+  font-family: 'Bungee Shade', sans-serif;
+  color: #b6474b;
+  font-size: 60px;
+  line-height: 1em;
+  text-align: left;
+}
+
+.diva-grito-empty {
+  padding-right: 0px;
+  padding-left: 0px;
+  background-color: transparent;
+}
+
+.text-block {
+  color: #999;
+}
+
+.utility-page-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100%;
+  max-width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.utility-page-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 260px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+}
+
+.utility-page-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.image {
+  margin-right: 10px;
+  padding-right: 0px;
+  float: none;
+}
+
+.link-block {
+  float: left;
+}
+
+.diva-link {
+  min-height: 150px;
+}
+
+.link-block-2 {
+  margin-right: 15px;
+  float: left;
+}
+
+.div-block {
+  float: left;
+}
+
+.empty-state {
+  display: none;
+  background-color: transparent;
+}
+
+.teste_cont {
+  padding: 152px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e01010), to(#e01010));
+  background-image: linear-gradient(180deg, #e01010, #e01010);
+}
+
+.teste_titulo {
+  color: #fff;
+  font-size: 48px;
+  line-height: 1em;
+}
+
+@media (max-width: 991px) {
+  .navbar-brand {
+    width: 60px;
+  }
+  .navbar-brand {
+    margin-left: 10px;
+    padding-left: 0px;
+  }
+  .navbar-link {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .navbar-link:hover {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .navbar-link.w--current {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(hsla(0, 0%, 100%, .2)), to(hsla(0, 0%, 100%, .2)));
+    background-image: linear-gradient(180deg, hsla(0, 0%, 100%, .2), hsla(0, 0%, 100%, .2));
+  }
+  .menu-button {
+    padding: 10px;
+  }
+  .menu-button-icon {
+    color: #b7474a;
+    font-size: 40px;
+  }
+  .page-title {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .page-title-heading {
+    right: 11px;
+    font-size: 80px;
+  }
+  .contato-col {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .page-title-subheading {
+    max-width: 80%;
+  }
+  .page-revista {
+    margin-top: 30px;
+  }
+  .grito-section {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  
+  .page-title {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 14px;
+  }
+  .page-title-heading {
+    right: 4px;
+    padding-right: 10%;
+    padding-left: 10%;
+    font-size: 60px;
+  }
+  .page-text {
+    padding: 40px 10%;
+  }
+  .subheading {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .post-title {
+    min-height: 0px;
+  }
+  .post-item {
+    margin-bottom: 10px;
+  }
+  .post-wrapper {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .page-title-subheading {
+    padding-right: 10%;
+    padding-left: 10%;
+    font-size: 18px;
+  }
+  .post-title-heading {
+    padding-right: 10%;
+    padding-left: 10%;
+    font-size: 40px;
+  }
+  .page-revista {
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+  .diva-single-photo {
+    padding-top: 10%;
+  }
+  .grito-logo {
+    font-size: 40px;
+  }
+  .grito-post-title {
+    font-size: 36px;
+  }
+  .teste_cont {
+    padding: 90px;
+  }
+}
+
+@media (max-width: 479px) {
+  .navbar-brand {
+    float: left;
+  }
+  .page-title-heading {
+    font-size: 36px;
+  }
+  .diva-single-photo {
+    padding-top: 10%;
+    padding-right: 0%;
+    padding-left: 0%;
+  }
+  .grito-logo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .grito-post-divas {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .teste_cont {
+    padding: 31px;
+  }
+}
+
+/* WORDPRESS */
+
+.wp-block-image {
+  margin: 30px 0;
+}
+
+.post-related-revista img {
+  width: 100px;
+  height: auto;
+}

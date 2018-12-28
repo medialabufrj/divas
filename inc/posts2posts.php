@@ -10,23 +10,21 @@
 			'title' => array( 'from' => 'Memes relacionados', 'to' => 'Edição relacionada' )
 		) );
 
-		/*
 		p2p_register_connection_type( array( 
-			'name' => 'projetos_blog',
-			'from' => 'projetos',
-			'to' => 'blog',
+			'name' => 'revista_posts',
+			'from' => 'revista',
+			'to' => 'post',
 			'cardinality' => 'one-to-many',
-			'title' => array( 'from' => 'Posts relacionados', 'to' => 'Projeto relacionado' )
+			'title' => array( 'from' => 'Posts relacionados', 'to' => 'Edição relacionada' )
 		) );
 
 		p2p_register_connection_type( array( 
-			'name' => 'eventos_blog',
-			'from' => 'eventos',
-			'to' => 'blog',
+			'name' => 'post_divas',
+			'from' => 'post',
+			'to' => 'diva',
 			'cardinality' => 'one-to-many',
-			'title' => array( 'from' => 'Posts relacionados', 'to' => 'Evento relacionado' )
+			'title' => array( 'from' => 'Divas relacionadas', 'to' => 'Post relacionado' )
 		) );
-		*/
 
 	endif;
 
