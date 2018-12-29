@@ -24,7 +24,7 @@
 			'name' => 'post_divas',
 			'from' => 'post',
 			'to' => 'diva',
-			'cardinality' => 'one-to-many',
+			'cardinality' => 'many-to-many',
 			'sortable' => 'from',
 			'title' => array( 'from' => 'Divas relacionadas', 'to' => 'Post relacionado' )
 		) );

@@ -761,3 +761,8 @@ blockquote {
   width: 100px;
   height: auto;
 }
+
+.has-small-font-size {
+  font-size: 80%;
+  color: #999;
+}
