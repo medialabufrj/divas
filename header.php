@@ -42,6 +42,7 @@
     border: 0;
   }
 </style>
+<?php wp_head(); ?>
 </head>
 <body>
   <div class="site-header">
