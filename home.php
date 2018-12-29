@@ -13,7 +13,7 @@
 
           <div class="revista-item w-dyn-item w-col w-col-3">
             <a href="<?php the_permalink(); ?>" class="revista-item-link w-inline-block">
-              <?php the_post_thumbnail('square-medium'); ?>
+              <?php the_post_thumbnail('large'); ?>
               <h3 class="revista-title"><?php the_title(); ?></h3>
             </a>
           </div>
