@@ -48,6 +48,12 @@
           -->
         </div>
 
+        <?php if(get_field('revista_embed')): ?>
+          <div class="spacer"></div>
+          <?php the_field('revista_embed'); ?>
+          <div class="spacer"></div>
+        <?php endif; ?>
+        
         <!-- <div class="w-embed w-iframe"><iframe src="" width="800" height="400"></iframe></div> -->
         <!-- <div class="w-video w-embed"></div> -->
         
