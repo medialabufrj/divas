@@ -64,6 +64,10 @@ blockquote {
   font-weight: 300;
 }
 
+blockquote p {
+  margin-bottom: 0;
+}
+
 .navbar-brand {
   margin-left: 0px;
 }

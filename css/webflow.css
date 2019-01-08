@@ -1514,7 +1514,7 @@ textarea.w-select {
 }
 .w-richtext figure {
   position: relative;
-  max-width: 60%;
+  /*max-width: 60%;*/
 }
 .w-richtext figure > div:before {
   cursor: default!important;
