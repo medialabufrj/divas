@@ -10,6 +10,7 @@
       <div class="page-revista">
         <h3 class="subheading">Nesta edição</h3>
         <div class="w-dyn-list">
+          <div class="w-clearfix w-dyn-items w-row">
         <?php
 
           $connected = new WP_Query( array(
@@ -23,7 +24,7 @@
 
         <?php while ( $connected->have_posts() ) : $connected->the_post(); ?>
           
-          <div class="w-clearfix w-dyn-items w-row">
+          
             <div class="revista-post-item w-dyn-item w-col w-col-4">
               <a href="<?php the_permalink(); ?>" class="post-item w-inline-block">
                 <?php the_post_thumbnail(); ?>
@@ -32,7 +33,7 @@
                 <h3 class="post-title"><?php the_title(); ?></h3>
               </a>
             </div>
-          </div>
+          
 
         <?php endwhile; ?>
               
@@ -40,6 +41,8 @@
           wp_reset_postdata();
           endif;
         ?>
+
+        </div>
           
           <!--
           <div class="revista-nenhum-artigo w-dyn-empty">
