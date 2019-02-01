@@ -12,7 +12,7 @@
         <div class="w-dyn-list">
           <div class="w-clearfix w-dyn-items w-row">
           <?php 
-            $args = array ('post_type' => 'meme');
+            $args = array ('post_type' => 'meme', 'posts_per_page' => -1);
             $myposts = get_posts( $args );
             foreach( $myposts as $post ) : 
               setup_postdata($post);

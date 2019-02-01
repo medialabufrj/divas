@@ -1,6 +1,8 @@
 <?php while(have_posts()): the_post(); ?>
-
-  <div class="page-title">
+<?php
+  $revista_header = get_field('revista_header');
+?>
+  <div class="page-title" style="background-image: url(<?php echo $revista_header["url"]; ?>);">
     <div class="w-container">
       <h1 class="page-title-heading"><?php the_title(); ?></h1>
     </div>
