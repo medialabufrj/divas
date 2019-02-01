@@ -15,6 +15,7 @@
             <a href="<?php the_permalink(); ?>" class="revista-item-link w-inline-block">
               <?php the_post_thumbnail('large'); ?>
               <h3 class="revista-title"><?php the_title(); ?></h3>
+              <p><small style="text-transform: uppercase;"><?php the_time('M Y'); ?></small></p>
             </a>
           </div>
 
