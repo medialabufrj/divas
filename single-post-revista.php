@@ -43,7 +43,7 @@
 
       <?php while ( $connected->have_posts() ) : $connected->the_post(); ?>
         <div class="w-dyn-item">
-          <a href="<?php the_permalink(); ?>" class="simple-link">
+          <a href="<?php the_permalink(); ?>" class="simple-link post-diva-autora">
             <?php the_title(); ?>
           </a>
         </div>

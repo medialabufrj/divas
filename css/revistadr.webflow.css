@@ -278,6 +278,11 @@ blockquote p {
   text-transform: uppercase;
 }
 
+.post-diva-autora {
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
 .image-between {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -497,6 +502,10 @@ blockquote p {
   line-height: 1em;
   font-weight: 900;
   text-decoration: none;
+}
+
+.grito-post-diva:hover {
+  text-decoration: underline;
 }
 
 .grito-post-divas {
